@@ -2,8 +2,7 @@ package com.tp2.avanzado;
 
 import java.util.ArrayList;
 import java.util.List;
-//import java.util.HashMap;
-//import java.util.Map;
+
 
 public class DetallesCuenta {
 	private double amount;
@@ -17,14 +16,7 @@ public class DetallesCuenta {
 	public void setPositions(List<Positions> positions) {
 		this.positions = positions;
 	}
-	/*private Map<String, Positions> positions = new HashMap<>();
-	
-	public Map<String, Positions> getPositions() {
-		return positions;
-	}
-	public void setPositions(Map<String, Positions> positions) {
-		this.positions = positions;
-	}*/
+
 	public double getAmount() {
 		return amount;
 	}

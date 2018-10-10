@@ -23,12 +23,7 @@ public class ValoresSimplificados {
 	public void setTicker(String ticker) {
 		this.ticker = ticker;
 	}
-	/*public double getPrice() {
-		return price;
-	}
-	public void setPrice(double price) {
-		this.price = price;
-	}*/
+
 	public String getIsin() {
 		return isin;
 	}
